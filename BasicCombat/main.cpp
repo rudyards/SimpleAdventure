@@ -126,6 +126,10 @@ void goblinMission(){
     clearScreen();
     cout<<"You continue along the main path for quite some time, the mine twisting to the left and the right with little warning, clearly having taken the path of least resistance."<<endl;
     cout<<"Finally, as you peek around the corner, you notice two goblins standing guard about five feet away. What do you do?"<<endl;
+    cout<<"1 - Head On Charge | ";
+    if(playerclass == "Rogue"){
+        cout<<"2 - Distract Them And Sneak By"<<endl;
+    }
 }
 
 bool readMission(){
